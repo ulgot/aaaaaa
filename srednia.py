@@ -12,10 +12,14 @@ def srednia(L, typ='A'):
 
     WYJ: FLOAT - srednia liczb z L"""
 
+    ret = None
     if typ.upper() == 'A':
         ret = srednia_arytmetyczna(L)
     elif typ.upper() == 'K':
         print "Not implemented"
 
-    return None
+    return ret
 
+
+if __name__ == "__main__":
+    print srednia([1, 1, 1, 1, 1])
