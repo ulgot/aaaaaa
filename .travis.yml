@@ -2,4 +2,4 @@ language: python
 python:
   - "2.7"
 # tests
-script: test01.py
+script: python test01.py
